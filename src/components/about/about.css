@@ -1,0 +1,53 @@
+.a {
+  height: 100vh;
+}
+
+.a-back {
+  height: 40%;
+  width: 20%;
+  border-radius: 50%;
+  background-color: blueviolet;
+  position: absolute;
+}
+
+.a-img {
+  width: 100%;
+  object-fit: contain;
+  position: relative;
+}
+.a-right {
+  text-align: center;
+}
+
+.a-title {
+  font-weight: 600;
+  font-size: 50px;
+  color: rgb(41, 41, 165);
+}
+
+.a-sub {
+  margin: 20px 0px;
+}
+
+.a-img-front {
+  width: 250px;
+}
+.a-img-boot {
+  width: 90px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+.a-img-react {
+  width: 120px;
+}
+
+.a-img-node {
+  width: 250px;
+}
+.a-img-express {
+  width: 80px;
+}
+.a-img-mongo {
+  width: 120px;
+}

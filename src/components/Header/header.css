@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu&display=swap");
+
+.header-logo {
+  width: 150px;
+}
+
+.head-text {
+  font-family: "Ubuntu";
+  color: rgb(25, 79, 228);
+}
+
+.head-text:hover {
+  color: blueviolet;
+  text-shadow: 4px 4px 6px rgba(138, 43, 226, 0.85);
+}

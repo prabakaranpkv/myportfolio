@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu&display=swap");
+
+.p {
+  width: 45%;
+  height: 40vh;
+  margin: 20px 10px;
+  border-radius: 10px 10px 0px 0px;
+  overflow: hidden;
+  border: 1px solid rgb(243, 238, 238);
+}
+.p-browser {
+  height: 50px;
+  background-color: rgb(44, 17, 139);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: sticky;
+  z-index: 2;
+}
+.p-name {
+  font-size: 20px;
+  font-weight: 600;
+  color: aliceblue;
+  font-family: "ubuntu";
+}
+
+.p-butt {
+  background: none;
+  color: white;
+  font-family: "ubuntu";
+}
+
+.p-butt:hover {
+  color: cornsilk;
+  text-shadow: 3px 3px 5px rgb(255, 255, 255);
+}
+
+.p-img {
+  width: 100%;
+  transition: all 5s ease;
+}
+
+.p:hover .p-img {
+  transform: translateY(-100%);
+}

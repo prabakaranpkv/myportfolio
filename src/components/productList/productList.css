@@ -1,0 +1,22 @@
+.pl {
+  height: 140vh;
+  text-align: center;
+}
+
+.pl-title {
+  font-size: 50px;
+  font-weight: 600;
+  color: rgb(62, 62, 161);
+}
+
+.pl-desc {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.pl-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
