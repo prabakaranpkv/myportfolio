@@ -37,12 +37,12 @@ const Contact = () => {
   return (
     <Container>
       <Element id="contact">
-        <Row>
-          <Col md={6} className="c">
+        <Row className="c">
+          <Col md={6} className="c-left">
             <h1 className="c-title">Contact</h1>
             <div className="c-info-item">
               <img
-                src="https://www.freeiconspng.com/thumbs/cell-phone-icon/cell-phone-icon--13.png"
+                src="http://www.pngall.com/wp-content/uploads/2016/05/Phone-PNG-HD.png"
                 alt="phone"
                 className="c-icon"
               />{" "}
@@ -50,7 +50,7 @@ const Contact = () => {
             </div>
             <div className="c-info-item">
               <img
-                src="https://clipartcraft.com/images/email-logo-png-e-mail-1.png"
+                src="https://purepng.com/public/uploads/large/purepng.com-mail-iconsymbolsiconsapple-iosiosios-8-iconsios-8-721522596075clftr.png"
                 alt="email"
                 className="c-icon"
               />{" "}
@@ -73,7 +73,7 @@ const Contact = () => {
               </a>
             </div>
           </Col>
-          <Col md={6} className="c">
+          <Col md={6} className="c-right">
             <p className="c-desc">
               <b>Message Me</b>
             </p>

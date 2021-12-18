@@ -6,40 +6,93 @@
   margin: 20px 10px;
   border-radius: 10px 10px 0px 0px;
   overflow: hidden;
-  border: 1px solid rgb(243, 238, 238);
-}
-.p-browser {
-  height: 50px;
-  background-color: rgb(44, 17, 139);
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  position: sticky;
-  z-index: 2;
-}
-.p-name {
-  font-size: 20px;
-  font-weight: 600;
-  color: aliceblue;
-  font-family: "ubuntu";
-}
-
-.p-butt {
-  background: none;
-  color: white;
-  font-family: "ubuntu";
-}
-
-.p-butt:hover {
-  color: cornsilk;
-  text-shadow: 3px 3px 5px rgb(255, 255, 255);
+  border: 1px solid rgb(224, 214, 214);
+  position: relative;
 }
 
 .p-img {
   width: 100%;
-  transition: all 5s ease;
+  height: 100%;
+  object-fit: cover;
+  opacity: 1;
+  display: block;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.p-cont {
+  width: 100%;
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+.p-name {
+  font-size: 30px;
+  font-weight: 800;
+  color: rgb(13, 118, 209);
+  font-family: "ubuntu";
+}
+.p-desc {
+  margin: 20px;
+  font-size: 17px;
+  font-weight: 500;
+  text-align: justify;
+  color: rgb(89, 149, 218);
+}
+.p-butt-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.p-butt {
+  width: 180px;
+
+  background-color: rgb(59, 87, 212);
+  color: rgb(255, 255, 255);
+  font-family: "ubuntu";
+  border-radius: 30px;
+}
+
+.p-butt:hover {
+  background-color: blueviolet;
+  box-shadow: 1px -1px 30px 4px rgba(138, 43, 226, 0.84);
 }
 
 .p:hover .p-img {
-  transform: translateY(-100%);
+  opacity: 0.1;
+}
+
+.p:hover .p-cont {
+  opacity: 1;
+}
+
+@media screen and (max-width: 480px) {
+  .p {
+    width: 90%;
+    height: 27vh;
+  }
+
+  .p-img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .p-name {
+    font-size: 20px;
+  }
+  .p-desc {
+    font-size: 15px;
+  }
+
+  .p-butt {
+    width: 120px;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 0;
+  }
 }

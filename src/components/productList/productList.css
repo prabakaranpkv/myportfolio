@@ -1,9 +1,13 @@
 .pl {
-  height: 140vh;
+  height: 150vh;
+}
+.pl-col {
+  height: 100%;
   text-align: center;
 }
 
 .pl-title {
+  margin-top: 70px;
   font-size: 50px;
   font-weight: 600;
   color: rgb(62, 62, 161);
@@ -19,4 +23,13 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 480px) {
+  .pl {
+    height: 160vh;
+  }
+  .pl-list {
+    justify-content: center;
+  }
 }

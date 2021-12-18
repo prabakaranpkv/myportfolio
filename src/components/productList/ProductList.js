@@ -8,8 +8,8 @@ const ProductList = () => {
   return (
     <Container>
       <Element id="projects">
-        <Row>
-          <Col className="pl">
+        <Row className="pl">
+          <Col className="pl-col">
             <h1 className="pl-title">Projects</h1>
             <p className="pl-desc">Here are some projects which I done</p>
 
@@ -20,7 +20,8 @@ const ProductList = () => {
                   img={item.img}
                   link={item.link}
                   pname={item.name}
-                  srclink={item.source}
+                  srclink1={item.source1}
+                  srclink2={item.source2}
                   des={item.description}
                 />
               ))}

@@ -1,19 +1,13 @@
 .a {
   height: 100vh;
+  align-items: center;
 }
-
-.a-back {
-  height: 40%;
-  width: 20%;
-  border-radius: 50%;
-  background-color: blueviolet;
-  position: absolute;
+.a-left {
+  height: auto;
 }
-
 .a-img {
   width: 100%;
   object-fit: contain;
-  position: relative;
 }
 .a-right {
   text-align: center;
@@ -26,28 +20,78 @@
 }
 
 .a-sub {
-  margin: 20px 0px;
+  margin: 15px 0px;
+  font-size: 20px;
 }
 
-.a-img-front {
-  width: 250px;
+.a-img-html {
+  width: 120px;
+  margin-right: 13px;
+}
+.a-img-html:hover {
+  width: 125px;
+  transition: 200ms linear;
+}
+
+.a-img-css {
+  width: 86px;
+  margin-right: 26px;
+}
+.a-img-css:hover {
+  width: 91px;
+  transition: 200ms linear;
+}
+.a-img-js {
+  width: 88px;
+}
+.a-img-js:hover {
+  width: 93px;
+  transition: 200ms linear;
 }
 .a-img-boot {
-  width: 90px;
-  margin-left: 15px;
+  width: 110px;
+  margin-left: 20px;
   margin-bottom: 10px;
+}
+.a-img-boot:hover {
+  width: 115px;
+  transition: 200ms linear;
 }
 
 .a-img-react {
-  width: 120px;
+  width: 130px;
+}
+.a-img-react:hover {
+  width: 135px;
+  transition: 200ms linear;
 }
 
 .a-img-node {
-  width: 250px;
+  width: 270px;
 }
+.a-img-node:hover {
+  width: 275px;
+  transition: 200ms linear;
+}
+
 .a-img-express {
-  width: 80px;
+  width: 100px;
 }
+.a-img-express:hover {
+  width: 105px;
+  transition: 200ms linear;
+}
+
 .a-img-mongo {
-  width: 120px;
+  width: 140px;
+}
+.a-img-mongo:hover {
+  width: 145px;
+  transition: 100ms linear;
+}
+
+@media screen and (max-width: 480px) {
+  .a {
+    height: 150vh;
+  }
 }

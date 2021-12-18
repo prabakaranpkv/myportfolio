@@ -1,9 +1,9 @@
 .i {
   height: 100vh;
-  text-align: justify;
+  align-items: center;
 }
+
 .i-intro {
-  margin-top: 30px;
   font-size: 30px;
   font-weight: 300;
 }
@@ -15,7 +15,6 @@
 .i-title {
   height: 50px;
   margin-top: 40px;
-
   overflow: hidden;
 }
 
@@ -25,7 +24,8 @@
 }
 .i-desc {
   margin-top: 40px;
-  width: 83%;
+  width: 82%;
+  text-align: justify;
 }
 .i-butt {
   margin-top: 40px;
@@ -59,4 +59,27 @@
   color: #59b256;
   display: flex;
   align-items: center;
+}
+
+.i-img {
+  width: 100%;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 480px) {
+  .i {
+    height: 150vh;
+  }
+  .i-left {
+    text-align: center;
+  }
+  .i-intro {
+    margin-top: 90px;
+  }
+  .i-title {
+    margin-left: 120px;
+  }
+  .i-desc {
+    width: 100%;
+  }
 }

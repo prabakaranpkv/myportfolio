@@ -6,25 +6,34 @@ const About = () => {
   return (
     <Container>
       <Element id="skills">
-        <Row>
-          <Col md={6} className="a">
-            <div className="a-back"></div>
+        <Row className="a">
+          <Col md={5} className="a-left">
             <img
-              src="https://codingthesmartway.com/wp-content/uploads/2019/01/mern_logo.png"
+              src="https://clipartstation.com/wp-content/uploads/2019/11/qualities-and-skills-clipart-transparent-4.png"
               alt="about"
               className="a-img"
             />
           </Col>
-          <Col md={6} className="a-right">
+          <Col md={7} className="a-right">
             <h1 className="a-title">Technologies</h1>
             <p className="a-sub">
               I have worked across all these technologies to create a projects.
             </p>
             <div>
               <img
-                className="a-img-front"
-                src="https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-best-web-design-psd-html-cms-development-ecommerce-6.png"
-                alt=""
+                className="a-img-html"
+                src="https://vectorified.com/images/html-css-icon-1.png"
+                alt="html"
+              />
+              <img
+                className="a-img-css"
+                src="https://www.santiagobarrionuevo.com/wp-content/uploads/2014/04/CSS3-Logo.png"
+                alt="css"
+              />
+              <img
+                className="a-img-js"
+                src="https://pluspng.com/img-png/logo-javascript-png-java-script-js-logo-format-ai-javascript-logo-vector-png-213.png"
+                alt="js"
               />
               <img
                 className="a-img-boot"

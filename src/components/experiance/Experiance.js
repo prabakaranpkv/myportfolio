@@ -8,8 +8,8 @@ const Intro = () => {
   return (
     <Container>
       <Element id="exp">
-        <Row>
-          <Col md={6} className="e">
+        <Row className="e">
+          <Col md={6} className="e-left">
             <h2 className="e-intro">Experience</h2>
             <div className="e-title">
               <Carousel
@@ -38,7 +38,7 @@ const Intro = () => {
               </Carousel>
             </div>
           </Col>
-          <Col md={6} className="e">
+          <Col md={6} className="e-right">
             <img
               src="https://www.pinclipart.com/picdir/big/324-3245900_job-interview-desk-interview-skills-images-png-clipart.png"
               alt=""

@@ -6,13 +6,13 @@ import pk1 from "../../img/pk1.png";
 
 const Header = () => {
   return (
-    <Navbar expand="lg" sticky="top">
+    <Navbar collapseOnSelect expand="lg" bg="dark" fixed="top">
       <Container fluid>
         <Navbar.Brand>
           <img src={pk1} alt="pklogo" className="header-logo" />
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link>
               <Link to="about" smooth={true} duration={500}>

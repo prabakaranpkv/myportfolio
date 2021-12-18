@@ -9,7 +9,8 @@ export const products = [
     img: `${pizzashop}`,
     link: "https://pizzashop-client.netlify.app/",
     name: "Pizza Shop",
-    source: "https://github.com/prabakaranpkv/pizza-client",
+    source1: "https://github.com/prabakaranpkv/pizza-client",
+    source2: "https://github.com/prabakaranpkv/pizza-server",
     description:
       "PizzaShop website build with ReactJs, NodeJs, ExpressJs and MongoDB, and used react-stripe-checkout for Payment Gateway.",
   },
@@ -18,7 +19,8 @@ export const products = [
     img: `${chatapp}`,
     link: "https://chattingapp-client.netlify.app/",
     name: "ChatApp",
-    source: "https://github.com/prabakaranpkv/chatapp-front",
+    source1: "https://github.com/prabakaranpkv/chatapp-front",
+    source2: "https://github.com/prabakaranpkv/chatapp-server",
     description:
       "ChatApp build with ReactJs, NodeJs, ExpressJs and MongoDB, and used Google Authentication IDE.",
   },
@@ -27,7 +29,8 @@ export const products = [
     img: `${flipkart}`,
     link: "https://flipkartclone-client.netlify.app/",
     name: "Flipkart Clone",
-    source: "https://github.com/prabakaranpkv/flipkart-clone-client",
+    source1: "https://github.com/prabakaranpkv/flipkart-clone-client",
+    source2: "https://github.com/prabakaranpkv/flipkart-clone-server",
     description:
       "Flipkart ECommerce Website with ReactJs, NodeJs, ExpressJs and MongoDB, and used Paytm IDE for Payment Gateway. ",
   },
@@ -36,7 +39,8 @@ export const products = [
     img: `${incexp}`,
     link: "https://income-expenses-client.netlify.app/",
     name: "Income & Expenses",
-    source: "https://github.com/prabakaranpkv/income-expenses-client",
+    source1: "https://github.com/prabakaranpkv/income-expenses-client",
+    source2: "https://github.com/prabakaranpkv/income-expenses-server",
     description:
       "Income & Expenses build with ReactJs, NodeJs, ExpressJs and MongoDB.",
   },

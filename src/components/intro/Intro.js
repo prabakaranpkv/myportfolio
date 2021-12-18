@@ -6,8 +6,8 @@ const Intro = () => {
   return (
     <Container>
       <Element id="about">
-        <Row>
-          <Col md={7} className="i">
+        <Row className="i">
+          <Col md={7} className="i-left">
             <h2 className="i-intro">Hello, My Name is</h2>
             <h1 className="i-name">Prabakaran</h1>
             <div className="i-title">
@@ -26,14 +26,14 @@ const Intro = () => {
               to learn and to contribute.
             </p>
             <a
-              href="https://drive.google.com/file/d/1XP_8wSHzIrVKsSG1dJIq0mITjqvHyfnD/view?usp=sharing"
+              href="https://drive.google.com/file/d/1n0whnlGlMJW8okB1ls7IEXHahsQXhn2b/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >
               <button className="i-butt">Resume</button>
             </a>
           </Col>
-          <Col md={5}>
+          <Col md={5} className="i-right">
             <img
               src="https://www.bytestechnolab.com/wp-content/uploads/2020/02/mean-vector2.png"
               alt=""
